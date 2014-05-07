@@ -90,6 +90,7 @@ def main():
 
     except Exception, e:
         raise e
+
     finally:
         if s is not None:
             s.close()
