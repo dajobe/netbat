@@ -72,8 +72,14 @@ def main():
           else:
               print "{count}: OK".format(count=count)
           count += 1
+
+    except KeyboardInterrupt:
+        # ^C - exit silently
+        pass
+
     except Exception, e:
         raise e
+
     finally:
         if conn is not None:
             conn.close()
