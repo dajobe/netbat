@@ -1,4 +1,8 @@
-""" common code for natbatpy """
+""" common code for natbat
+
+License: see UNLICENSE
+
+"""
 
 import hashlib
 import random

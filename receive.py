@@ -1,5 +1,9 @@
 #!/usr/bin/env python
-""" Receive data """
+""" Receive data 
+
+License: see UNLICENSE
+
+"""
 
 import argparse
 import socket
