@@ -9,7 +9,7 @@ class MessageMaker(object):
   """ Create a sequence of messages from random data """
 
   # Default seed if none given
-  SEED = 1332
+  SEED = 1331
 
   def __init__(self, seed = None):
     """ Construct object with optional random int seed """
